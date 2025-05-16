@@ -12,3 +12,4 @@ airflow users create \
 tmux new-session -d -s airflow-webserver 'airflow webserver --port 8080'
 tmux new-session -d -s airflow-scheduler 'airflow scheduler'
 
+
